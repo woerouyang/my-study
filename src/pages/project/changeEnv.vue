@@ -1,9 +1,7 @@
 <template>
-  <ul>
-    <li>
-      <item></item>
-    </li>
-  </ul>
+  <div>
+    <h1></h1>
+  </div>
 </template>
 
 <script>
