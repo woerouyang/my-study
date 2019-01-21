@@ -1,8 +1,8 @@
 <template>
   <el-row :gutter="12">
     <el-col :span="8">
-      <el-card shadow="hover" @click.native="changeRouter('ensure')">
-        代码切割
+      <el-card shadow="hover" @click.native="changeRouter('beginner')">
+        新手指南
       </el-card>
     </el-col>
     <el-col :span="8">

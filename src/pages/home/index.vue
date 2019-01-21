@@ -25,11 +25,11 @@ export default {
       projectList: [
         {
           label: 'CSS',
-          routerName: 'CssList'
+          routerName: 'css'
         },
         {
           label: 'Sass',
-          routerName: 'SassList'
+          routerName: 'sass'
         },
         {
           label: 'webpack',

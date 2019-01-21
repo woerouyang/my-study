@@ -20,7 +20,7 @@
 
 <script>
 export default {
-  name: 'index',
+  name: 'webpack',
   methods: {
     changeRouter (routerName) {
       this.$router.push({name: routerName})
@@ -29,6 +29,6 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss">
 
 </style>

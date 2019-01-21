@@ -2,7 +2,7 @@
   <el-row :gutter="12">
     <el-col :span="8">
       <el-card shadow="hover" @click.native="changeRouter('changeEnv')">
-        编译环境和上线环境切换
+        编译环境和线上环境切换
       </el-card>
     </el-col>
     <el-col :span="8">
