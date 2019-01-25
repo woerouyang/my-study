@@ -13,6 +13,10 @@ const ensure = r => require.ensure([], () => r(require('../pages/webpack/ensure'
 // sass
 const sass = r => require.ensure([], () => r(require('../pages/sass/index')), 'sass')
 const beginner = r => require.ensure([], () => r(require('../pages/sass/beginner')), 'beginner')
+
+// css
+const css = r => require.ensure([], () => r(require('../pages/css/index')), 'css')
+const cssDemo1 = r => require.ensure([], () => r(require('../pages/css/cssDemo1')), 'cssDemo1')
 Vue.use(Router)
 
 export default new Router({
@@ -55,6 +59,16 @@ export default new Router({
       path: '/sass/beginner',
       name: 'beginner',
       component: beginner
+    },
+    {
+      path: '/css/index',
+      name: 'css',
+      component: css
+    },
+    {
+      path: '/css/cssDemo1',
+      name: 'cssDemo1',
+      component: cssDemo1
     }
   ]
 })
